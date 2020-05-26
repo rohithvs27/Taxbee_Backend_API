@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,8 +18,5 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.15"
-  },
-  "scripts": {
-    "start": "node index.js"
   }
 }

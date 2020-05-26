@@ -19,6 +19,9 @@ app.use("/blog", blogs);
 app.use("/users", users);
 app.use("/auth", auth);
 app.use("/", home);
+app.use(function (err, req, res, next) {
+  
+})
 
 mongoose
   .connect(
